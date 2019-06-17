@@ -1,0 +1,7 @@
+development: &development
+  endpoint: https://example.iota.endpoint
+test:
+  <<: *development
+
+production:
+  <<: *development

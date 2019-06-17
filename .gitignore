@@ -1,0 +1,7 @@
+/doc/
+/spec/reports/
+/tmp/
+/Gemfile.lock
+.DS_Store
+*.gem
+config/biilabs-client.yml
