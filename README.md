@@ -53,7 +53,7 @@ get tangle from IoTA via Biilabs
 
 get tangles by tag from IoTA via Biilabs
 
-    irb> BiilabsClient.new.get_tangle_by_tag('ADMDEAHDPCVC999999999999999')
+    irb> BiilabsClient.new.get_tangle_by_tag('my tag')
     # {
     #   "transactions"=>[{
     #     "hash"=>"LTSDZIYLKSLQHCOZPHWWCNUNSFZCVLTZELARIONAGR9RGY9ZXC9J9AYHUZMGEODZXI9AOMJ9PCKB99999",

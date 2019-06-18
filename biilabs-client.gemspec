@@ -9,7 +9,11 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/redtear1115/biilabs-client'
   s.license     = 'MIT'
 
-  s.files            = ['lib/biilabs-client.rb']
+  s.files            = [
+    'lib/biilabs-client.rb',
+    'lib/string.rb',
+    'lib/trytes.rb'
+  ]
   s.test_files       = ['spec/biilabs-client_spec.rb']
   s.extra_rdoc_files = [ 'README.md' ]
   s.rdoc_options     = ['--charset=UTF-8']

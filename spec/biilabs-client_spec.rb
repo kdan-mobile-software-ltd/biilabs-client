@@ -25,7 +25,7 @@ describe BiilabsClient do
 
   describe '.get_tangle_by_tag' do
     it 'should return tangles with same tag' do
-      result = @client.get_tangle_by_tag(@tag.to_trytes.value)
+      result = @client.get_tangle_by_tag(@tag)
       expect(result['transactions'].first['tag'].to_trytes.to_string).to eq(@tag)
     end
   end
