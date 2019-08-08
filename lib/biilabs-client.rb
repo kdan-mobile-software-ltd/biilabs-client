@@ -34,7 +34,8 @@ class BiilabsClient
   end
 
   def get_tangle_by_tag(tag)
-    path = "/tag/#{tag.to_trytes.value}"
+    tag_id = (tag.to_trytes.value + "9" * 27)[0..26]
+    path = "/tag/#{tag_id}"
     resp = connection.get(path)
     response_handler(resp)
   end

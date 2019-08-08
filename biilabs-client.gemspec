@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name        = 'biilabs-client'
-  s.version     = '0.1.2'
+  s.version     = '0.1.3'
   s.platform    = Gem::Platform::RUBY
   s.summary     = 'A gem to work with BiiLabs Tangle.'
   s.description = 'Wrapper for BiiLabs APIs'
   s.authors     = ['Ray Lee']
   s.email       = 'ray-lee@kdanmobile.com'
-  s.homepage    = 'https://github.com/redtear1115/biilabs-client'
+  s.homepage    = 'https://github.com/kdan-mobile-software-ltd/biilabs-client'
   s.license     = 'MIT'
 
   s.files            = [

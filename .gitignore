@@ -5,3 +5,6 @@
 .DS_Store
 *.gem
 config/biilabs-client.yml
+.ruby-version
+.ruby-gemset
+.editorconfig
